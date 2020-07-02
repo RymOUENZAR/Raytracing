@@ -1,0 +1,21 @@
+﻿  main.cpp
+D:\Visual Studio Projects\cornellbox\cornellbox\camera.h(14,29): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\camera.h(14,18): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\camera.h(25,15): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\material.h(93,21): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\material.h(135,40): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\material.h(135,29): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\material.h(135,18): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\material.h(144,21): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(14,29): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(14,55): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(51,21): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(51,47): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(88,25): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rect.h(88,51): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\triangle.h(14,45): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\triangle.h(14,87): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rotate.h(25,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rotate.h(101,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\rotate.h(177,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox\cornellbox\main.cpp(20,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
