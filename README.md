@@ -2,4 +2,4 @@
 Using SFML for rendering
 
 Results :
-[result1](output1.png)
+![result1](output1.png)
