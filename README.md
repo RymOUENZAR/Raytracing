@@ -7,4 +7,4 @@ Results :
 ![cornell box](output3.png)
 
 Références :
-(https://raytracing.github.io/)
+https://raytracing.github.io/
