@@ -1,5 +1,5 @@
 #pragma once
-#include "hitable.h"
+#include "hittable.h"
 
 #include <stdlib.h>
 #include <limits>

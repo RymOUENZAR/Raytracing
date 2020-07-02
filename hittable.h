@@ -16,7 +16,7 @@ struct hit_record
 	material *mat_ptr;
 };
 
-class hitable
+class hittable
 {
 public:
 	virtual bool hit(const ray &r, float t_min, float t_max, hit_record &rec) const = 0;
@@ -26,10 +26,10 @@ public:
 //We added an emitted function. Like the background, it just tells the ray
 //	what color it is and performs no reflection.
 
-class flip_normals : public hitable
+class flip_normals : public hittable
 {
 public: 
-	flip_normals(hitable *p) : ptr(p) {}
+	flip_normals(hittable *p) : ptr(p) {}
 	virtual bool hit(const ray& r, float t_min, float t_max, hit_record& rec) const
 	{
 		if (ptr->hit(r, t_min, t_max, rec))
@@ -46,7 +46,7 @@ public:
 		return ptr->bounding_box(box);
 	}
 
-	hitable *ptr;
+	hittable *ptr;
 };
 
 
@@ -55,13 +55,13 @@ An instance is a geometric primitive that has
 been moved or rotated somehow. This is especially easy in ray tracing because we don’t move
 anything; instead we move the rays in the opposite direction.
 */
-class translate : public hitable
+class translate : public hittable
 {
 public:
-	translate(hitable *p, const vec3& displacement) : ptr(p), offset(displacement) {}
+	translate(hittable *p, const vec3& displacement) : ptr(p), offset(displacement) {}
 	virtual bool hit(const ray& r, float t_min, float t_max, hit_record& rec) const;
 	virtual bool bounding_box(aabb& box) const;
-	hitable *ptr;
+	hittable *ptr;
 	vec3 offset;
 };
 

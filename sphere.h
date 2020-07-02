@@ -1,9 +1,9 @@
 #pragma once
 
-#include "hitable.h"
+#include "hittable.h"
 //#include "material.h"
 
-class sphere : public hitable
+class sphere : public hittable
 {
 public:
 	sphere() {}

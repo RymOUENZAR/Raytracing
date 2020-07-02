@@ -1,8 +1,8 @@
 #pragma once
 
-#include "hitable.h"
+#include "hittable.h"
 
-class xy_rect : public hitable
+class xy_rect : public hittable
 {
 public:
 	xy_rect() {}
@@ -39,7 +39,7 @@ bool xy_rect::hit(const ray& r, float t0, float t1, hit_record& rec) const
 	return true;
 }
 
-class yz_rect : public hitable
+class yz_rect : public hittable
 {
 public:
 	yz_rect() {}
@@ -76,7 +76,7 @@ bool yz_rect::hit(const ray& r, float t0, float t1, hit_record& rec) const
 	return true;
 }
 
-class xz_rect : public hitable
+class xz_rect : public hittable
 {
 public:
 	xz_rect() {}

@@ -18,41 +18,48 @@ D:\Visual Studio Projects\cornellbox - Copie\cornellbox\triangle.h(14,87): warni
 D:\Visual Studio Projects\cornellbox - Copie\cornellbox\rotate.h(25,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
 D:\Visual Studio Projects\cornellbox - Copie\cornellbox\rotate.h(101,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
 D:\Visual Studio Projects\cornellbox - Copie\cornellbox\rotate.h(177,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(38,26): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(38,20): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(39,31): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(39,24): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(70,21): warning C4018: '<' : incompatibilité signed/unsigned
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(72,22): warning C4018: '<' : incompatibilité signed/unsigned
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(94,22): warning C4018: '<' : incompatibilité signed/unsigned
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(246,5): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(277,21): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(278,44): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(278,62): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(278,18): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(279,7): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(284,118): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(284,95): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(284,72): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(284,132): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,107): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,84): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,61): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,131): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,144): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(294,62): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(301,79): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(302,73): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(312,54): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(313,56): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(314,56): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(332,54): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(333,56): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(334,56): warning C4305: 'argument' : troncation de 'double' à 'float'
-D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(335,55): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(42,26): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(42,20): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(43,31): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(43,24): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(80,21): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(82,22): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(104,22): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(256,5): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(287,21): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(288,44): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(288,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(288,18): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(289,7): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(294,118): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(294,95): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(294,72): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(294,132): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(299,107): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(299,84): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(299,61): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(299,131): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(299,144): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(304,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(311,79): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(312,73): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(322,54): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(323,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(324,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(335,19): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(334,19): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(333,88): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(336,70): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(345,54): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(346,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(347,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(365,54): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(366,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(367,56): warning C4305: 'argument' : troncation de 'double' à 'float'
+D:\Visual Studio Projects\cornellbox - Copie\cornellbox\main.cpp(368,55): warning C4305: 'argument' : troncation de 'double' à 'float'
   Génération de code en cours
-  71 of 441 functions (16.1%) were compiled, the rest were copied from previous compilation.
+  3 of 430 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    12 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code
   cornellbox.vcxproj -> D:\Visual Studio Projects\cornellbox - Copie\x64\Release\cornellbox.exe

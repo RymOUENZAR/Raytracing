@@ -1,9 +1,9 @@
 #pragma once
 
-#include "hitable.h"
-#include "hitablelist.h"
+#include "hittable.h"
+#include "hittablelist.h"
 #include <iostream>
-class triangle : public hitable
+class triangle : public hittable
 {
 public:
 	triangle() {}

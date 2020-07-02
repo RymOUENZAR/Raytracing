@@ -1,11 +1,11 @@
 #pragma once
 
-#include "hitable.h"
+#include "hittable.h"
 
-class rotate_y : public hitable
+class rotate_y : public hittable
 {
 public:
-	rotate_y(hitable *p, float angle);
+	rotate_y(hittable *p, float angle);
 	virtual bool hit(const ray& r, float t_min, float t_max, hit_record& rec) const;
 	virtual bool bounding_box(aabb& box) const
 	{
@@ -13,14 +13,14 @@ public:
 		return hasbox;
 	}
 
-	hitable *ptr;
+	hittable *ptr;
 	float sin_theta;
 	float cos_theta;
 	bool hasbox;
 	aabb bbox;
 };
 
-rotate_y::rotate_y(hitable *p, float angle) : ptr(p)
+rotate_y::rotate_y(hittable *p, float angle) : ptr(p)
 {
 	float radians = (M_PI / 180) * angle;
 	sin_theta = sin(radians);
@@ -78,10 +78,10 @@ bool rotate_y::hit(const ray& r, float t_min, float t_max, hit_record& rec) cons
 		return false;
 }
 
-class rotate_z : public hitable
+class rotate_z : public hittable
 {
 public:
-	rotate_z(hitable *p, float angle);
+	rotate_z(hittable *p, float angle);
 	virtual bool hit(const ray& r, float t_min, float t_max, hit_record& rec) const;
 	virtual bool bounding_box(aabb& box) const
 	{
@@ -89,14 +89,14 @@ public:
 		return hasbox;
 	}
 
-	hitable *ptr;
+	hittable *ptr;
 	float sin_theta;
 	float cos_theta;
 	bool hasbox;
 	aabb bbox;
 };
 
-rotate_z::rotate_z(hitable *p, float angle) : ptr(p)
+rotate_z::rotate_z(hittable *p, float angle) : ptr(p)
 {
 	float radians = (M_PI / 180) * angle;
 	sin_theta = sin(radians);
@@ -154,10 +154,10 @@ bool rotate_z::hit(const ray& r, float t_min, float t_max, hit_record& rec) cons
 		return false;
 }
 
-class rotate_x : public hitable
+class rotate_x : public hittable
 {
 public:
-	rotate_x(hitable *p, float angle);
+	rotate_x(hittable *p, float angle);
 	virtual bool hit(const ray& r, float t_min, float t_max, hit_record& rec) const;
 	virtual bool bounding_box(aabb& box) const
 	{
@@ -165,14 +165,14 @@ public:
 		return hasbox;
 	}
 
-	hitable *ptr;
+	hittable *ptr;
 	float sin_theta;
 	float cos_theta;
 	bool hasbox;
 	aabb bbox;
 };
 
-rotate_x::rotate_x(hitable *p, float angle) : ptr(p)
+rotate_x::rotate_x(hittable *p, float angle) : ptr(p)
 {
 	float radians = (M_PI / 180) * angle;
 	sin_theta = sin(radians);
